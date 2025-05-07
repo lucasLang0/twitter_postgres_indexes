@@ -16,7 +16,7 @@ echo '==========================================================================
 echo 'load pg_denormalized'
 echo '================================================================================'
 # FIXME: implement this with GNU parallel
-	# echo "$files" |  time parallel ./load_denormalized.sh
+	echo "$files" |  time parallel ./load_denormalized.sh
 
 echo '================================================================================'
 echo 'load pg_normalized_batch'
